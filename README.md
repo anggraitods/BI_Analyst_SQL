@@ -16,15 +16,15 @@ CREATE TABLE employees (
 INSERT INTO employees(id, managerId, name) VALUES(1, NULL, 'John');
 INSERT INTO employees(id, managerId, name) VALUES(2, 1, 'Mike');
 
--- Expected output (in any order):
--- name
--- ----
--- Mike
+Expected output (in any order):
+name
+----
+Mike
 
--- Explanation:
--- In this example.
--- John is Mike's manager. Mike does not manage anyone.
--- Mike is the only employee who does not manage anyone.
+Explanation:
+In this example.
+John is Mike's manager. Mike does not manage anyone.
+Mike is the only employee who does not manage anyone.
 
 JAWABAN :
 
